@@ -8,8 +8,11 @@ namespace AlgorithmProgram
 {
     class Program
     {
+        private static Physics.Physics physics =new Physics.Physics();
+
         static void Main(string[] args)
         {
+            physics.Debug();
         }
     }
 }

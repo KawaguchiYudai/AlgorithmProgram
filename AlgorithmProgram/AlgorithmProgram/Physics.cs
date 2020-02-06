@@ -9,5 +9,9 @@ namespace AlgorithmProgram.Physics
     //物理計算系のプログラムを作成
     class Physics
     {
+        public void Debug()
+        {
+
+        }
     }
 }
