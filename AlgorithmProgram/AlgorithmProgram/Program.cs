@@ -10,6 +10,7 @@ namespace AlgorithmProgram
     {
         static void Main(string[] args)
         {
+            //ハムスター
         }
     }
 }
