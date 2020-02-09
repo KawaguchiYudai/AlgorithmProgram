@@ -1,0 +1,21 @@
+Git Command memo
+command
+cd
+vim
+dir
+
+git
+status
+log  --oneline
+add -A
+commit
+checkout  
+clone
+push origin 
+pull
+fetch
+branch
+branch -a -r -d 
+merge
+stash
+
