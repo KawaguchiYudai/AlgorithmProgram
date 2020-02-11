@@ -13,6 +13,10 @@ namespace AlgorithmProgram
         static void Main(string[] args)
         {
             physics.Debug();
+            while (true)
+            {
+
+            }
         }
     }
 }

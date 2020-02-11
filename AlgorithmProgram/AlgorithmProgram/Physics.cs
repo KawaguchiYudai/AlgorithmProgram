@@ -11,7 +11,6 @@ namespace AlgorithmProgram.Physics
     {
         public void Debug()
         {
-
         }
     }
 }

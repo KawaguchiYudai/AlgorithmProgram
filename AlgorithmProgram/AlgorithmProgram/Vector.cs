@@ -21,5 +21,22 @@ namespace AlgorithmProgram.Physics
             y = _y;
             z = _z;
         }
+
+        public float Angle(Vector a,Vector b)
+        {
+            var ab = a.x * b.x + a.y * b.y + a.z * b.z;
+            var abSize = Size(a) * Size(b);
+            var cos = ab / abSize;
+            return cos;
+        }
+
+        public float Size(Vector a)
+        {
+            var x = a.x * a.x;
+            var y = a.y * a.y;
+            var z = a.z * a.z;
+            var size = Math.Sqrt(x + y + z);
+            return (float)size;
+        }
     }
 }

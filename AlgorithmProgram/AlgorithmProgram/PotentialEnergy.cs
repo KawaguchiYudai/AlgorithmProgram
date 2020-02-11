@@ -8,5 +8,11 @@ namespace AlgorithmProgram.Physics
 {
     class PotentialEnergy
     {
+        //L=V^2*sin2θ/g
+     //L=飛距離　V=初速度　θ=仰角　g=重力
+        public void Calculation()
+        {
+
+        }
     }
 }
